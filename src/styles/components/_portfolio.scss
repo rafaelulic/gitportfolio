@@ -1,0 +1,85 @@
+.portfolio {
+
+    .partners {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: repeat(2, 200px); 
+        grid-gap: 10px;
+        
+
+        #juanex {
+            @include backgroundImage('../../images/juanexbg.jpg');
+            grid-row-start: 1;
+            grid-row-end: span 2;
+        }
+
+        #scubed {
+            @include backgroundImage('../../images/scubedbg.jpg');
+            grid-column-start: 2;
+            grid-column-end: span 2;
+        }
+
+        #ciit {
+            @include backgroundImage('../../images/ciitbg.jpg');       
+        }
+        #juancash {
+            @include backgroundImage('../../images/juancashbg.jpg');             
+        }
+        
+        .logo {
+            position: relative;            
+            text-align: center;
+            display: grid;
+            grid-row: 300px;
+            align-items: center;            
+            justify-content: center;
+            background: black;
+            border: 5px solid black;
+
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: white;
+            
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:hover {
+                opacity: 1;
+            }
+            
+            p {
+               font-size: 30px;
+               color: black;
+               text-transform: uppercase;
+            }
+          }
+    }
+}
+
+// Phone View
+
+@media only screen and (max-width: 785px) {
+    .portfolio  {
+        .partners {
+            display: block;
+            .logo {
+                height: 100px;
+                margin: 10px 0;
+            }
+    
+       
+        }
+    }
+}

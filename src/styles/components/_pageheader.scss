@@ -1,0 +1,17 @@
+.pageheader {
+    height: 70px;    
+    color:black;
+    margin-bottom: 50px;
+    h2 {
+        padding: 20px 0;         
+        text-transform: uppercase;
+        letter-spacing: 10px;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+    .pageheader {
+        height: 50px;
+        text-align: center;
+    }
+  }

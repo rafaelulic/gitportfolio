@@ -1,0 +1,59 @@
+.sidebar {
+    display: block;
+    // background: $raf-red;
+    background: black;
+    
+    position: fixed;
+    top: 0;
+    width: 250px;
+    min-height: 100vh;
+    
+    .logo-box {
+        cursor: pointer;
+        display: flex;
+        height: 250px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav {
+        display: flex;
+        flex-flow: column;
+        a {  
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;         
+                        
+            &:hover {
+                background: white;
+                color: black;
+            }
+        }
+    }
+
+    .socials {
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        transition: 500ms;
+
+        a {
+            color: white;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+
+// Phone View
+
+@media only screen and (max-width: 785px) {
+    .sidebar {
+        display: none;
+    }
+}

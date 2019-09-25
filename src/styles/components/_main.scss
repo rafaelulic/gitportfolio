@@ -1,0 +1,12 @@
+main {
+    background:white;   
+    padding-left: 250px;    
+}
+
+// Phone View
+
+@media only screen and (max-width: 785px) {
+    main {
+        padding-left: 0;
+    }
+}

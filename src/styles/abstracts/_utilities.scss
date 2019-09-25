@@ -1,0 +1,148 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding: 20px;
+    background: white;
+}
+
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h3 {
+    font-size: 80px;  
+}
+.wrapper {
+    width: 500px;
+}
+p {
+    color: gray;
+}
+
+.image {
+    margin: 1em 0;
+    position: relative;
+    width: 400px;
+    border: 5px solid black;
+    transition: .5s;
+    box-shadow: 8px 8px 0 black;
+
+    &:hover {
+       
+    }
+}
+
+
+.two-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.three-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+    
+.child {
+    padding-right: 20px;
+}
+
+.raf-btn {
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    margin: 20px 0;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: 500ms;
+    text-transform: uppercase;
+
+    &:hover {
+        background: transparent;
+        border: 2px solid black;
+        color: black
+    }
+}
+
+.flex-wrapper {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.square {
+    width: 260px;
+    margin-right: 20px;
+    
+    .time {
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    .company {
+        color: gray;
+        margin: 10px 0;
+    }
+
+    .position {
+        font-size: 24px;
+        font-weight: bolder;
+        margin: 20px 0;
+    }
+
+    .description {
+        margin: 10px 0;
+    }
+}
+
+.backgrounded {
+    color: white;
+    background: black;
+    padding: 20px;
+}
+
+.black-background {
+    background: black;
+    color: white;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 786px) {
+    .container {
+        width: 100%;
+        min-height: auto;
+        padding: 20px 0;
+    }
+
+    .row {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        
+        h3 {
+            font-size: 50px;  
+            text-align: center;
+        }
+
+        .image {
+            position: relative;
+            width: 80%;
+            margin: 1em auto;
+            border: 5px solid black;
+            transition: .5s;
+            box-shadow: 8px 8px 0 black;
+        
+        }
+
+        .wrapper {
+            width: 100%;    
+        }
+    }
+}
+
+

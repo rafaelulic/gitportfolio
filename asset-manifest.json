@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/gitportfolio/static/css/main.2b05b760.chunk.css",
+    "main.js": "/gitportfolio/static/js/main.edfbfb74.chunk.js",
+    "main.js.map": "/gitportfolio/static/js/main.edfbfb74.chunk.js.map",
+    "runtime~main.js": "/gitportfolio/static/js/runtime~main.c40e020e.js",
+    "runtime~main.js.map": "/gitportfolio/static/js/runtime~main.c40e020e.js.map",
+    "static/js/2.a6488915.chunk.js": "/gitportfolio/static/js/2.a6488915.chunk.js",
+    "static/js/2.a6488915.chunk.js.map": "/gitportfolio/static/js/2.a6488915.chunk.js.map",
+    "index.html": "/gitportfolio/index.html",
+    "precache-manifest.a36b2ed8afbc112bf71f5a2d2c3dd46f.js": "/gitportfolio/precache-manifest.a36b2ed8afbc112bf71f5a2d2c3dd46f.js",
+    "service-worker.js": "/gitportfolio/service-worker.js",
+    "static/css/main.2b05b760.chunk.css.map": "/gitportfolio/static/css/main.2b05b760.chunk.css.map",
+    "static/media/A.jpg": "/gitportfolio/static/media/A.e01a06de.jpg",
+    "static/media/B.jpg": "/gitportfolio/static/media/B.87344518.jpg",
+    "static/media/C.jpg": "/gitportfolio/static/media/C.2baf4d01.jpg",
+    "static/media/App.scss": "/gitportfolio/static/media/scubedbg.c281c699.jpg"
+  }
+}

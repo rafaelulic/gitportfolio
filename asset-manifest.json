@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/gitportfolio/static/css/main.2b05b760.chunk.css",
-    "main.js": "/gitportfolio/static/js/main.edfbfb74.chunk.js",
-    "main.js.map": "/gitportfolio/static/js/main.edfbfb74.chunk.js.map",
+    "main.css": "/gitportfolio/static/css/main.25b41d03.chunk.css",
+    "main.js": "/gitportfolio/static/js/main.07604b6b.chunk.js",
+    "main.js.map": "/gitportfolio/static/js/main.07604b6b.chunk.js.map",
     "runtime~main.js": "/gitportfolio/static/js/runtime~main.c40e020e.js",
     "runtime~main.js.map": "/gitportfolio/static/js/runtime~main.c40e020e.js.map",
-    "static/js/2.a6488915.chunk.js": "/gitportfolio/static/js/2.a6488915.chunk.js",
-    "static/js/2.a6488915.chunk.js.map": "/gitportfolio/static/js/2.a6488915.chunk.js.map",
+    "static/css/2.f4447dd4.chunk.css": "/gitportfolio/static/css/2.f4447dd4.chunk.css",
+    "static/js/2.0e866982.chunk.js": "/gitportfolio/static/js/2.0e866982.chunk.js",
+    "static/js/2.0e866982.chunk.js.map": "/gitportfolio/static/js/2.0e866982.chunk.js.map",
     "index.html": "/gitportfolio/index.html",
-    "precache-manifest.d607887f2bc001122aa7faefbe684bc6.js": "/gitportfolio/precache-manifest.d607887f2bc001122aa7faefbe684bc6.js",
+    "precache-manifest.1fefe81ec53ad0c8aec6206d6ccf5d3c.js": "/gitportfolio/precache-manifest.1fefe81ec53ad0c8aec6206d6ccf5d3c.js",
     "service-worker.js": "/gitportfolio/service-worker.js",
-    "static/css/main.2b05b760.chunk.css.map": "/gitportfolio/static/css/main.2b05b760.chunk.css.map",
+    "static/css/2.f4447dd4.chunk.css.map": "/gitportfolio/static/css/2.f4447dd4.chunk.css.map",
+    "static/css/main.25b41d03.chunk.css.map": "/gitportfolio/static/css/main.25b41d03.chunk.css.map",
     "static/media/A.jpg": "/gitportfolio/static/media/A.e01a06de.jpg",
     "static/media/B.jpg": "/gitportfolio/static/media/B.87344518.jpg",
     "static/media/C.jpg": "/gitportfolio/static/media/C.2baf4d01.jpg",
-    "static/media/App.scss": "/gitportfolio/static/media/scubedbg.c281c699.jpg"
+    "static/media/App.scss": "/gitportfolio/static/media/scubedbg.c281c699.jpg",
+    "static/media/styles.css": "/gitportfolio/static/media/revicons.2feb69cc.eot"
   }
 }

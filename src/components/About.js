@@ -34,51 +34,67 @@ const About = () => {
         <div className="about container" id="about">
             <PageHeader title="About" />
             <div className="row">
-            <Fade left>
-                <div className="col">
-                    <h3>01. <br/>Website Design</h3>
-                </div>
-            </Fade>
-            <Fade top>
-                <div className="col">
-                    <img src={rafA} className="image" alt="" />
-                    <div className="wrapper">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fugit consequatur sint ducimus ipsa! Eius, architecto. Distinctio doloribus vitae voluptates quod assumenda quae veniam voluptas aspernatur harum, illum in cupiditate.</p>
+                <Fade left>
+                    <div className="col">
+                        <h3>01. <br />Website Design</h3>
                     </div>
-                
-                </div>
-            </Fade>
+                </Fade>
+                <Fade top>
+                    <div className="col">
+                        <img src={rafA} className="image" alt="" />
+                        <div className="wrapper">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fugit consequatur sint ducimus ipsa! Eius, architecto. Distinctio doloribus vitae voluptates quod assumenda quae veniam voluptas aspernatur harum, illum in cupiditate.</p>
+                        </div>
+
+                    </div>
+                </Fade>
+            </div>
+
+            <div className="row desktop-only">
+                <Fade top>
+                    <div className="col">
+                        <img src={rafB} className='image' alt="" />
+                        <div className="wrapper">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fugit consequatur sint ducimus ipsa! Eius, architecto. Distinctio doloribus vitae voluptates quod assumenda quae veniam voluptas aspernatur harum, illum in cupiditate.</p>
+                        </div>
+                    </div>
+                </Fade>
+                <Fade right>
+                    <div className="col">
+                        <h3>02. <br />Software Development</h3>
+                    </div>
+                </Fade>
+            </div>
+
+            <div className="row mobile-only">
+                <Fade right>
+                    <div className="col">
+                        <h3>02. <br />Software Development</h3>
+                    </div>
+                </Fade>
+                <Fade top>
+                    <div className="col">
+                        <img src={rafB} className='image' alt="" />
+                        <div className="wrapper">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fugit consequatur sint ducimus ipsa! Eius, architecto. Distinctio doloribus vitae voluptates quod assumenda quae veniam voluptas aspernatur harum, illum in cupiditate.</p>
+                        </div>
+                    </div>
+                </Fade>
             </div>
 
             <div className="row">
-                <Fade top>
-                <div className="col">
-                    <img src={rafB} className='image' alt="" />
-                    <div className="wrapper">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fugit consequatur sint ducimus ipsa! Eius, architecto. Distinctio doloribus vitae voluptates quod assumenda quae veniam voluptas aspernatur harum, illum in cupiditate.</p>
-                    </div>
-                </div>
-                </Fade>
-                <Fade right>
-                <div className="col">
-                    <h3>02. <br/>Software Development</h3>
-                </div>
-                </Fade>
-            </div>
-            
-            <div className="row">
                 <Fade left>
-                <div className="col">
-                    <h3>03. <br/> Professor</h3>
-                </div>
+                    <div className="col">
+                        <h3>03. <br /> Professor</h3>
+                    </div>
                 </Fade>
                 <Fade top>
-                <div className="col">
-                    <img src={rafC} className="image" alt="" />
-                    <div className="wrapper">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fugit consequatur sint ducimus ipsa! Eius, architecto. Distinctio doloribus vitae voluptates quod assumenda quae veniam voluptas aspernatur harum, illum in cupiditate.</p>
+                    <div className="col">
+                        <img src={rafC} className="image" alt="" />
+                        <div className="wrapper">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fugit consequatur sint ducimus ipsa! Eius, architecto. Distinctio doloribus vitae voluptates quod assumenda quae veniam voluptas aspernatur harum, illum in cupiditate.</p>
+                        </div>
                     </div>
-                </div>
                 </Fade>
             </div>
         </div>

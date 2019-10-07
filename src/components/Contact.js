@@ -2,38 +2,38 @@ import React from 'react';
 import PageHeader from './PageHeader';
 
 const Contact = () => {
-    return (            
-            <div className="contact container" id="contact">
-                <PageHeader title="Contact Me" />
-                
-                <div className="row">
-                    <div className="col">
-                        <p><a href="mailto:raf.tutorials@gmail.com">Mail</a></p>
-                        <p><a href="https://twitter.com/raftutorials">Twitter</a></p>
-                        <p><a href="https://youtube.com/raftutorials">YouTube</a></p>
-                        <p><a href="https://github.com/raftutorials">Github</a></p>
-                    </div>
-                    <div className="col">
-                        <form action="">
-                            <div className="form-group">
-                                <label htmlFor="name">Name</label>
-                                <input type="text" name="name" placeholder="Enter your name" />
-                            </div>
-                            <div className="form-group">
-                                <label htmlFor="name">Email</label>
-                                <input type="email" name="email" placeholder="Enter your email" />
-                            </div>
-                            <div className="form-group">
-                                <label htmlFor="name">Message</label>
-                                <textarea name="message" id="" cols="30" rows="10" placeholder="Enter your message">
-                                </textarea>
-                            </div>                      
-                            
-                            
-                            <input type="submit" value="Send message" />
-                        </form>
-                    </div>
+    return (
+        <div className="contact container" id="contact">
+            <PageHeader title="Contact Me" />
+
+            <div className="row">
+                <div className="col contacts">
+                    <div><a href="mailto:raf.tutorials@gmail.com">Mail</a></div>
+                    <div><a href="https://twitter.com/raftutorials">Twitter</a></div>
+                    <div><a href="https://youtube.com/raftutorials">YouTube</a></div>
+                    <div><a href="https://github.com/raftutorials">Github</a></div>
                 </div>
+                <div className="col">
+                    <form action="">
+                        <div className="form-group">
+                            <label htmlFor="name">Name</label>
+                            <input type="text" name="name" placeholder="Enter your name" />
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="name">Email</label>
+                            <input type="email" name="email" placeholder="Enter your email" />
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="name">Message</label>
+                            <textarea name="message" id="" cols="30" rows="10" placeholder="Enter your message">
+                            </textarea>
+                        </div>
+
+
+                        <input type="submit" value="Send message" />
+                    </form>
+                </div>
+            </div>
 
 
 
@@ -49,7 +49,7 @@ const Contact = () => {
 
 
 
-                {/* <div className="row">
+            {/* <div className="row">
                     <div className="col">
                         <h3>New Business?</h3>
                         <p>Let's build something awesome.</p>
@@ -74,7 +74,7 @@ const Contact = () => {
                         <a href="mailto:rafael.ulic@gmail.com">Github</a>
                     </div>
                 </div> */}
-            </div>
+        </div>
     );
 }
 

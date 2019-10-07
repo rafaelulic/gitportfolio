@@ -8,7 +8,8 @@ import {
   faMicrophone,
   faDesktop, 
   faChalkboardTeacher,
-  faEnvelope } from '@fortawesome/free-solid-svg-icons'
+  faEnvelope,
+  faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
 
 import './styles/App.scss';
@@ -22,7 +23,8 @@ library.add(
   faMicrophone,
   faDesktop, 
   faChalkboardTeacher,
-  faEnvelope
+  faEnvelope,
+  faExternalLinkAlt
 )
 
 function App() {

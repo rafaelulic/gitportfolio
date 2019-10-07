@@ -3,9 +3,11 @@ import logo from '../images/raflogowhite.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-scroll'
+import Fade from 'react-reveal/Fade';
 
 const Sidebar = () => {
     return (
+        <Fade left>
         <div className="sidebar">
             <div className="logo-box">
                 <Link to="splash" spy={true} smooth={true} duration={1500} ><img className="logo" src={logo} alt="rafael ulic logo"/></Link>
@@ -25,7 +27,8 @@ const Sidebar = () => {
                 <a href=""><FontAwesomeIcon icon={['fab', 'github']} size="lg" /></a>
             </div>
         </div>
-    );
+        </Fade>
+    )
 }
 
 export default Sidebar;

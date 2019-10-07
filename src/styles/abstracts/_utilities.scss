@@ -6,6 +6,18 @@
     background: white;
 }
 
+a {
+    color: black;
+
+    &:hover {
+        color: gray;
+    }
+}
+
+::selection {
+    color: white;
+    background: black;
+}
 
 .row {
     display: grid;
@@ -112,36 +124,70 @@ p {
     padding: 20px;
 }
 
+.mobile-only {
+    display: none;
+}
+
+
 @media only screen and (max-width: 786px) {
+    p, h4 { padding: 20px; }
+
     .container {
-        width: 100%;
+        
         min-height: auto;
-        padding: 20px 0;
+        width: 100%;
+        padding: 0;
+
+        .two-columns {
+            display: flex;
+            flex-flow: column wrap;
+            
+        }
     }
+
+ 
 
     .row {
         display: block;
         width: 100%;
         margin: 0 auto;
-        
-        h3 {
-            font-size: 50px;  
-            text-align: center;
+        .col {
+            
+            h3 {
+                font-size: 50px;  
+                text-align: center;
+            }
+    
+            .image {
+                display:block;
+                position: relative;
+                width: 80%;
+                margin: 1em auto;
+                border: 5px solid black;
+                transition: .5s;
+                box-shadow: 8px 8px 0 black;
+            
+            }
+    
+            .wrapper {
+                width: 100%;    
+            }
         }
+    }
 
-        .image {
-            position: relative;
-            width: 80%;
-            margin: 1em auto;
-            border: 5px solid black;
-            transition: .5s;
-            box-shadow: 8px 8px 0 black;
-        
-        }
+    .raf-btn {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;    
+    }
 
-        .wrapper {
-            width: 100%;    
-        }
+    .mobile-only {
+        display: block;
+    }
+
+    .desktop-only {
+        display: none;
     }
 }
 

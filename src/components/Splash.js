@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from '../images/raflogowhite.png';
+import Fade from 'react-reveal/Fade';
 
 var ReactRotatingText = require('react-rotating-text');
 
 const Splash = () => {
     return (
+        <Fade top>
         <div className="splash container" id="intro">
             <div className="logobox">
                 <img className="logo" src={logo} alt="rafael ulic logo"/>
@@ -19,6 +21,7 @@ const Splash = () => {
                 <span className="country">Philippines.</span>
             </span>       
         </div>
+        </Fade>
     );
 }
 

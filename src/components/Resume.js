@@ -1,5 +1,26 @@
 import React from 'react';
 import Card from './Card';
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import Fade from 'react-reveal';
+ 
+const responsive = {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3,
+    slidesToSlide: 3, // optional, default to 1.
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+    slidesToSlide: 2, // optional, default to 1.
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+};
 
 
 function Title(props) {
@@ -110,13 +131,16 @@ const Resume = () => {
     return (
         <div className="container" id="resume">
             <div className="two-columns">
+                <Fade left big>
                 <div className="col" id="image-container">
                     <div id="image"></div>
                 </div>
+                </Fade>
+                <Fade bottom big cascade>
                 <div className="col">
-                    <h4>Some Words</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente pariatur qui numquam unde explicabo, suscipit minus at maxime aliquid fugiat iure ipsum sint ut perspiciatis, aspernatur amet debitis sunt placeat?
-                    </p>
+                    <h4 className="big-font">100% Performance</h4>
+                    <h4 className="big-font backgrounded">in everything I do</h4>
+                    <p>I am a multidisciplinary human being with expertise in Design, Development and Mentoring. With over 10 years of experience, I have been involved in various projects assuming different roles like project management and business analyst. Also, I live my life by staying fit, travelling places and drinking coffee.</p>
                     <div className="three-columns">
                         {services.map(item => 
                             <div className="child" key={item.id}>
@@ -125,15 +149,18 @@ const Resume = () => {
                                 icon={item.icon}
                                 cardTitle={item.title} 
                                 cardDesc={item.desc}
-
-                            />
+                                />
                             </div>
                             )                
                         }
                     </div>
-                    <button className="raf-btn">Download CV</button>
+                    <div className="btn-wrapper">
+                        <button className="raf-btn">Download CV</button>
+                    </div>
                 </div>
+                </Fade>
             </div>
+            <Fade left big>
             <Title title="Experience" />
             <div className="flex-wrapper">
                 {experience.map(item => 
@@ -146,6 +173,8 @@ const Resume = () => {
                     )                
                 }                
             </div>
+            </Fade>
+            <Fade right big>
             <Title title="Education" />
             <div className="flex-wrapper">
                 {education.map(item => 
@@ -158,6 +187,7 @@ const Resume = () => {
                     )                
                 }                
             </div>
+            </Fade>
         </div>
     );
 }

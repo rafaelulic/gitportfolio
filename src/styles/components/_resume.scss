@@ -5,6 +5,11 @@
         margin-bottom: 60px;
     }
 
+    h4.big-font {
+        font-size: 60px;
+        margin: 0;
+    }
+
     .parent {
         display: grid;
         grid-template-columns: repeat(2, 1fr)
@@ -13,11 +18,11 @@
     #image-container {
         display: flex;
         flex-flow: column;
-        justify-content: center;
+        justify-content: flex-start;
         
         #image {
-            height: 70%;
-            width: 70%;
+            height: 90%;
+            width: 80%;
             filter: grayscale(100%);
             border: 5px solid black;
             background: url('../../images/rafportrait.jpg');
@@ -25,6 +30,35 @@
             background-size: cover;
             background-position: center;
             box-shadow: 8px 8px 0 black;
+        }
+    }
+}
+
+@media only screen and (max-width: 786px) {
+    #resume {
+
+        #image-container {
+            display: none;
+        }
+
+        .three-columns {
+            display: flex;
+            flex-flow: column wrap;
+            text-align: center;
+        }
+
+        .btn-wrapper {
+            width: 100%;
+
+            .raf-btn {
+                margin: 20px auto;
+            }
+        }
+
+        .flex-wrapper {
+            display: flex;
+            flex-flow: column wrap;
+            padding-left: 20px; 
         }
     }
 }

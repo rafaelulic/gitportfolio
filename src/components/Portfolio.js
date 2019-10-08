@@ -11,8 +11,8 @@ const Portfolio = () => {
 
       <PageHeader title="Works" />
 
-      <div big className="partners">
-        <Fade top>
+      <div className="partners">
+        <Fade big top>
           <div className="logo" id="juanex">
           <a href="https://www.juanexchange.com"> 
             <img src={jexLogo} alt="Juan Exchange Logo" />

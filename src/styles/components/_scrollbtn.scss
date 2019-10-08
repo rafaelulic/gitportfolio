@@ -3,7 +3,7 @@
   span {
     background: black;
     position: fixed;
-    bottom: 80px;
+    bottom: 30px;
     right: 5%;
     width: 46px;
     height: 46px;
@@ -18,9 +18,9 @@
       content: "";
       width: 16px;
       height: 16px;
-      margin: -12px 0 0 -8px;
-      border-left: 2px solid #fff;
-      border-bottom: 2px solid #fff;
+      margin: -6px 0 0 -8px;
+      border-right: 2px solid #fff;
+      border-top: 2px solid #fff;
       -webkit-transform: rotate(-45deg);
       transform: rotate(-45deg);
       box-sizing: border-box;
@@ -36,14 +36,14 @@
       box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
       border-radius: 100%;
       opacity: 0;
-      -webkit-animation: scroll-down 3s infinite;
-      animation: scroll-down 3s infinite;
+      -webkit-animation: scroll-up 3s infinite;
+      animation: scroll-up 3s infinite;
       box-sizing: border-box;
     }
   }
 }
 
-@-webkit-keyframes scroll-down {
+@-webkit-keyframes scroll-up {
   0% {
     opacity: 0;
   }
@@ -62,7 +62,7 @@
   }
 }
 
-@keyframes scroll-down {
+@keyframes scroll-up {
   0% {
     opacity: 0;
   }
@@ -83,18 +83,6 @@
 
 @media only screen and (max-width: 786px) {
   #scroll-btn span {
-    cursor: pointer;
-    span {
-      background: black;
-      position: absolute;
-      bottom: 5%;
-      right: 45%;
-      width: 46px;
-      height: 46px;
-      margin-left: -23px;
-      border: 1px solid black;
-      border-radius: 100%;
-      box-sizing: border-box;
-    }
+    display: none;
   }
 }

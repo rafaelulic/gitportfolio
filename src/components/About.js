@@ -43,9 +43,10 @@ const About = () => {
                     <div className="col">
                         <img src={rafA} className="image" alt="" />
                         <div className="wrapper">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fugit consequatur sint ducimus ipsa! Eius, architecto. Distinctio doloribus vitae voluptates quod assumenda quae veniam voluptas aspernatur harum, illum in cupiditate.</p>
+                            <p>Web design and Web development are two different things. Fortunately, I can do both for you and that's a good thing. </p> 
+                            <p>As a Web designer, I meticulously craft the look and feel of your Website while also considering rich user experience for your Website's visitors. </p>
+                            <p>Being a Web developer, I am ensuring to meet the requirements of the Website's design by employing and utilizing the latest and cutting-edge technologies to build your Website that you can be very proud of.</p>
                         </div>
-
                     </div>
                 </Fade>
             </div>
@@ -55,7 +56,8 @@ const About = () => {
                     <div className="col">
                         <img src={rafB} className='image' alt="" />
                         <div className="wrapper">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fugit consequatur sint ducimus ipsa! Eius, architecto. Distinctio doloribus vitae voluptates quod assumenda quae veniam voluptas aspernatur harum, illum in cupiditate.</p>
+                            <p>Whether Web applications or mobile apps, I understand that this is an extension of your business to reach your clients and empower your employees. </p> 
+                            <p> Having this in mind, I see to it that your business processes are carried out to your new application while also considering user engagement by making user-friendly features to make it more effective.</p>
                         </div>
                     </div>
                 </Fade>
@@ -76,7 +78,7 @@ const About = () => {
                     <div className="col">
                         <img src={rafB} className='image' alt="" />
                         <div className="wrapper">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fugit consequatur sint ducimus ipsa! Eius, architecto. Distinctio doloribus vitae voluptates quod assumenda quae veniam voluptas aspernatur harum, illum in cupiditate.</p>
+                            <p>Whether Web applications or mobile apps, I understand that this is an extension of your business to reach your clients and empower your employees. Having this in mind, I see to it that your business processes are carried out to your new application while also considering user engagement by making user-friendly features to make it more effective.</p>
                         </div>
                     </div>
                 </Fade>
@@ -92,7 +94,7 @@ const About = () => {
                     <div className="col">
                         <img src={rafC} className="image" alt="" />
                         <div className="wrapper">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fugit consequatur sint ducimus ipsa! Eius, architecto. Distinctio doloribus vitae voluptates quod assumenda quae veniam voluptas aspernatur harum, illum in cupiditate.</p>
+                            <p>As the famous adage goes "sharing is caring", I can be of help in one on one or in a large group of crowd. I have mentored lots of people ranging from college students to professionals who wants to improve their skills set.</p>
                         </div>
                     </div>
                 </Fade>

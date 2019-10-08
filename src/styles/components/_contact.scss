@@ -83,7 +83,7 @@
     padding: 12px 0;
     border: none;
     border-bottom: 2px solid lightgray;
-    transition: 500ms;
+    transition: 300ms;
     background: transparent;
 
     &:focus {
@@ -112,8 +112,7 @@
 }
 
 @media only screen and (max-width: 786px) {
-  #contact {
-   
+  #contact {   
     .row {
       display: flex;
       flex-flow: column wrap;

@@ -1,24 +1,20 @@
-import React from 'react';
-
-
-var Scroll = require('react-scroll');
-var scroll = Scroll.animateScroll;
- 
-function scrollTo (){
-    scroll.scrollMore(800);
-    
-};
-
+import React from 'react'
+import { Link } from 'react-scroll'
+import { Fade } from 'react-reveal'
 
 function ScrollBtn() {
     return (
         // <a href="#" class="scroll-down" address="true"></a>
-
-        <section id="scroll-btn"> 
-            {/* <Link to="500" spy={true} smooth={true} duration={1500} ><span></span></Link> */}
-            <span onClick={scrollTo}><span></span></span>
-        </section>
-    );
+        // <Fade>
+            <Link to="splash" spy={true} smooth={true} duration={1500} >
+                <section id="scroll-btn">                 
+                <Fade>
+                    <span><span></span></span>
+                </Fade>
+                </section>
+            </Link>
+        // </Fade>
+    )
 }
 
 export default ScrollBtn;  

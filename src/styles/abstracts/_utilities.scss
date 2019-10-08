@@ -6,6 +6,11 @@
     background: white;
 }
 
+p {
+    color: black;
+    line-height: 1.5em;
+}
+
 a {
     color: black;
 
@@ -30,9 +35,7 @@ h3 {
 .wrapper {
     width: 500px;
 }
-p {
-    color: gray;
-}
+
 
 .image {
     margin: 1em 0;
@@ -99,6 +102,7 @@ p {
     .company {
         color: gray;
         margin: 10px 0;
+        height: 30px;
     }
 
     .position {
@@ -128,7 +132,6 @@ p {
     display: none;
 }
 
-
 @media only screen and (max-width: 786px) {
     p, h4 { padding: 20px; }
 
@@ -145,7 +148,9 @@ p {
         }
     }
 
- 
+    .square {
+        width: 100%;
+    }
 
     .row {
         display: block;
@@ -189,6 +194,7 @@ p {
     .desktop-only {
         display: none;
     }
+
 }
 
 

@@ -34,21 +34,7 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
             {/* <div className="row">
                     <div className="col">
                         <h3>New Business?</h3>

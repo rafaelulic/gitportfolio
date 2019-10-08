@@ -75,16 +75,16 @@ const education = [
     {
         id: 0,
         time: "Apr 2013",
-        company: "Polytechnic University of the Ph",
+        company: "PUP - Manila",
         position: "MS Information Tech",
-        description: "Responsible for implementing visual elements that users see and interact within a web application"
+        description: "This is where I learned about everything IT 2.0."
     },
     {
         id: 1,
         time: "Apr 2007",
         company: "Emilio Aguinaldo College",
         position: "BS Computer Science",
-        description: "Responsible for implementing visual elements that users see and interact within a web application"
+        description: "This is where I learned about everything IT 1.0."
     },
 ]
 
@@ -140,7 +140,7 @@ const Resume = () => {
                 <div className="col">
                     <h4 className="big-font">100% Performance</h4>
                     <h4 className="big-font backgrounded">in everything I do</h4>
-                    <p>I am a multidisciplinary human being with expertise in Design, Development and Mentoring. With over 10 years of experience, I have been involved in various projects assuming different roles like project management and business analyst. Also, I live my life by staying fit, travelling places and drinking coffee.</p>
+                    <p>I am a multidisciplinary human being with expertise in Design, Development and Mentoring. With over 10 years of experience, I have been involved in various projects, assuming different roles like project management and business analyst. Also, I live my life by staying fit, travelling places and drinking coffee.</p>
                     <div className="three-columns">
                         {services.map(item => 
                             <div className="child" key={item.id}>
